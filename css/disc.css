@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Sofia", sans-serif;
+  justify-content: center;
+  background-color: #e0decd;
+  }
+
+/* Float four columns side by side */
+
+
+/* Responsive columns */
+
+
+
+/* Style the counter cards */
+
+/* NAVBAR*/
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+.active {
+background-color: #04AA6D;
+}
+.logo img{
+  width: 90px;
+  height: 90px;
+  max-width: 50%;    
+  height: auto;
+
+}
+
+
+.page{
+
+max-width: 900px;
+margin: auto;
+padding: 20px;
+margin-top: 90px;
+}
+section p {
+text-align: start;
+
+}
+
+p  {
+text-align: start;
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+
+}
+h3{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.title{
+  font-size: 40px;
+  font-style: italic;
+}
+/*Footer--------*/
+.footer-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #333333;
+  color: white;
+  padding-bottom: 20px;
+  margin-top:110px;
+}
+
+.footer-left {
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ padding: 5px;
+}
+.left{
+  display: inline;
+  justify-content: space-between;
+  padding: 0 12px;
+  
+}
+
+.a2{
+  
+  font-size: 20px;
+  font-family: "Arial", Helvetica, sans-serif;
+  margin: 17px;
+  padding: 8px;
+}
+
+#map{
+  color: #be1616;
+  font-size: 23px;
+}
+#ins{
+  font-size: 23px;
+  color: rgb(213, 56, 161);
+}
+
+#tw{
+  font-size: 23px;
+  color: rgb(68, 68, 242);
+}
+
+
+.footer-right {
+  padding: 5px;
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+}
+.a3{
+  font-size: 20px;
+  font-family: "Arial", Helvetica, sans-serif;
+  margin: 17px;
+  padding: 8px;
+  flex-direction: column;
+  color: #e58b8b;
+  text-decoration: none;
+
+}

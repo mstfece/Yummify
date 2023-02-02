@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="css/faq.css">
+
+<style>
+
+</style>
+</head>
+<body>
+  <div class="nav">
+    <ul id="navbar">
+      <li><a class="logo" href="index.html"> <img src="menu/hamburger.png" alt=""></a></li>
+        <li><a href="menu.html"><i class="fas fa-cash-register"></i> <br/> Menu</a></li>
+        <li><a href="index.html"><i class="fas fa-home"></i><br/>Home</a></li>
+        <li><a href="login.html"><i class="fas fa-sign-in-alt"></i><br/>Log-in</a></li>
+        <li><a href="register.html"><i class="fas fa-door-open"></i><br/>Register</a></li>
+        <li><a href="about.html"><i class="fas fa-id-card"></i><br/>About</a></li>
+    </ul>
+</div>
+
+<div class="box">
+<h2>Search for a question </h2>
+<p>Click on the buttons to open the answers.</p>
+
+<button class="accordion">How can i get yummify?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">How do I Make a regular Table Booking?
+</button>
+<div class="panel">
+ <p> It's a piece of cake - once you've found your preferred restaurant simply select your Date and Time required, and then so long as we have an email address and phone number your booking is instantly confirmed the minute you hit "Book"</p>
+
+</div>
+
+<button class="accordion">How do I book a Bookable-Special?
+</button>
+<div class="panel">
+  <p>It's quick and easy - once you've found your preferred restaurant special, simply click 'Book Special' then select a date when its available, then the time, and then so long as we have an email address and phone number your booking is instantly confirmed the minute you hit "Book"
+
+  </p>
+</div>
+
+<button class="accordion">How can I be certain my booking's been received?
+</button>
+<div class="panel">
+  <p>We'll send an instant confirmation email to the address used in your booking. If you book more than a day ahead, we'll also send a reminder 24 hours before your booking is due. You can reconfirm your booking using a link in your reminder email.
+
+  </p>
+</div>
+
+<button class="accordion">What happens if I don't reconfirm my booking?
+</button>
+<div class="panel">
+  <p>Don't worry, your restaurant will still hold your booking without a reconfirmation.
+
+  </p>
+</div>
+
+<button class="accordion">I'm sure I've booked, but I haven't had confirmation - what now?
+</button>
+<div class="panel">
+  <p>We will always send you an automated confirmation when your booking is confirmed at the restaurant. If you haven't received a confirmation, please start the process again. If you continue to have an issue please give us a call on 09 928 6079 during business hours or drop us a line at info@restauranthub.co.nz and we'll be in touch to resolve the issue.
+
+  </p>
+</div>
+
+<button class="accordion">What happens if I'm running late?
+</button>
+<div class="panel">
+  <p>Call the restaurant. Every restaurant is different, but most will hold a booking for at least twenty minutes before reassigning your table. 
+
+  </p>
+</div>
+
+<button class="accordion">What happens if I get to the restaurant and they don't have my booking?
+</button>
+<div class="panel">
+  <p>Restaurant Hub restaurants are committed to honour any confirmed bookings we have generated. For added peace of mind you should always reconfirm your booking using the the link included in your reminder email, and it's also a good idea to take your confirmation email with you. 
+
+  </p>
+</div>
+
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+<footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <p class="a2" >Social Media</p>
+      <div class="left">
+      <a class="a2" id="ins" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+      <a class="a2" id="map" href="https://www.google.com/maps/"><i class="fas fa-map-marker-alt"></i><a/>
+      <a class="a2" id="tw" href="https://twitter.com/"><i class="fab fa-twitter"></i><a/>
+      </div>
+
+      <p class="a2" >Copyright ©2022 My website</p>
+    </div>
+    <div class="footer-right">
+      <nav class="nav2">
+        <a class="a3"  href="faq.html">FAQ </a>
+        <a class="a3" href="terms.html">Terms & Conditions </a>
+        <a class="a3" href="disclaimer.html">DISCLAIMER </a>
+        
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
